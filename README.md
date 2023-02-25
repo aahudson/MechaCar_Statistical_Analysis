@@ -30,11 +30,14 @@ Project objective to address the following:
 
 ## Summary Statistics on Suspension Coils
 # Total Summary Statistics 
-Mean_PSI: 1498.78
-Median_PSI: 1500
-var_PSI: 62.29356
-sd_PSI: 7.892627
+![Total Summary Statistics for Suspension Coils](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/Total_Summary_Statistics.jpg)
 
 # Lot Summary 
 ![Summary Statistics for Lot](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/Manufacturing_Lot_Summary.jpg)
 
+# Analysis pf Suspension Coils 
+Based on the total_summary dataframe, the variance of the suspension coils across all manufacturing lots is 62.29356. Therefore, the manufacturing data meets the design specification of having a variance of the suspension coils that does not exceed 100 pounds per square inch across all manufacturing lots.
+
+However, based on the lot_summary dataframe, it appears that Lot3 has a variance of 170.286, which exceeds the design specification of 100 pounds per square inch. This suggests that Lot3 may have some quality control issues or other factors affecting the consistency of its suspension coils.
+
+In summary, the current manufacturing data meets the design specification for the suspension coil's variance in total, but not for Lot3 individually.
