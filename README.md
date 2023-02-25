@@ -35,4 +35,6 @@ Median_PSI: 1500
 var_PSI: 62.29356
 sd_PSI: 7.892627
 
-# 
+# Lot Summary 
+![Summary Statistics for Lot](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/Manufacturing_Lot_Summary.jpg)
+
