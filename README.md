@@ -49,5 +49,5 @@ To determine if the PSI for each manufacturing lot is statistically different fr
 
 Here are the screenshots of the t-test results for each lot:
 
-![Result of First T-test](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/Manufacturing_Lot_Summary.jpg)
-![Results of 3 T-tests](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/Manufacturing_Lot_Summary.jpg)
+![Result of First T-test](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/One_Sample_T-Test.jpg)
+![Results of 3 T-tests](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/3-Set_One_Sample_T-tests.jpg)
