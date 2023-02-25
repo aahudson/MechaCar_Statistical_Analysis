@@ -51,3 +51,18 @@ Here are the screenshots of the t-test results for each lot:
 
 ![Result of First T-test](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/One_Sample_T-Test.jpg)
 ![Results of 3 T-tests](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/3-Set_One_Sample_T-tests.jpg)
+
+## Study Design: MechaCar vs Competition
+In order to determine how the MechaCar performs against the competition, a statistical study can be designed to compare several key measures. Three areas of interest to a consumer might be cost, fuel efficiency, and safety rating.
+
+Null hypothesis: There is no significant difference between the MechaCar and the competitors in terms of the chosen measures. 
+Alternative Hypothesis: MechaCar performs better than the competitors in one or more of the chosen measures.
+
+A two-sample t-test would be an appropriate statistical test to compare the MechaCar to its competitors, as it can compare the means of two different groups (in this case, the MechaCar and the competitors) and determine whether there is a statistically significant difference between them.
+
+To run the statistical test, data would be needed for the MechaCar and its competitors for each of the chosen measures. This data could be obtained through research from various sources such as consumer reports, automotive industry publications, or other relevant data sources. Once the data is collected, it would be necessary to clean and process it for analysis.
+
+The results of the statistical test would provide valuable information for consumers to make informed decisions about their car purchases. The study could also provide useful insights for the MechaCar company to improve their product and stand out in the competitive market.
+
+
+
