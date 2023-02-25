@@ -16,3 +16,8 @@ mpg2_model <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_
 summary(mpg2_model)
 
 # Saved MechaCarChallenge.RScript to GitHub Repository 
+
+# Plotted data to show Residuals vs Fitted based on linear regression 
+plot(mpg_model, which = 1)
+
+# GitHub push 
