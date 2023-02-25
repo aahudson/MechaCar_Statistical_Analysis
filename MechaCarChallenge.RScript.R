@@ -1,3 +1,4 @@
+# Part I
 # Load the dplyr package
 library(dplyr)
 
@@ -19,5 +20,20 @@ summary(mpg2_model)
 
 # Plotted data to show Residuals vs Fitted based on linear regression 
 plot(mpg_model, which = 1)
+
+# GitHub push 
+# Part II
+
+# Import and read in the Suspension_Coil.csv file as a table
+Suspension_Coil <- read.csv("Resources/Suspension_Coil.csv")
+
+# Create a total_summary dataframe using the summarize() function
+total_summary <- Suspension_Coil %>%
+  summarize(mean_PSI = mean(PSI), median_PSI = median(PSI), var_PSI = var(PSI), sd_PSI = sd(PSI))
+
+# Create a lot_summary dataframe using the group_by() and summarize() functions
+lot_summary <- Suspension_Coil %>%
+  group_by(Manufacturing_Lot) %>%
+  summarize(mean_PSI = mean(PSI), median_PSI = median(PSI), var_PSI = var(PSI), sd_PSI = sd(PSI))
 
 # GitHub push 

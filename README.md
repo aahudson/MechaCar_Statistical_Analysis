@@ -1,5 +1,5 @@
 # MechaCar_Statistical_Analysis
-
+## Part I 
 This project contains a linear regression analysis of the MechaCar dataset, focusing on the relationship between MPG and several vehicle attributes. The following diagnostic plots were generated to assess the fit and assumptions of the linear regression model:
 
 ## Residuals vs. Fitted Plot
@@ -22,3 +22,17 @@ The linear regression model output provided indicates that the variables vehicle
 The slope of the linear model is not considered to be zero, since the p-value for the overall model is much less than 0.05. This suggests that at least one of the predictor variables is contributing to the model's ability to predict the response variable.
 
 The R-squared value for the model is 0.7149, indicating that approximately 71% of the variation in MPG can be explained by the predictor variables. This suggests that the linear model can predict the MPG of MechaCar prototypes to a certain extent. However, as mentioned before, there may be other factors that are not included in the model that can also affect MPG, and the model may not generalize well to other car models or conditions.
+
+## Part II
+Project objective to address the following: 
+- The suspension coil’s PSI continuous variable across all manufacturing lots.
+- The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
+## Summary Statistics on Suspension Coils
+# Total Summary Statistics 
+Mean_PSI: 1498.78
+Median_PSI: 1500
+var_PSI: 62.29356
+sd_PSI: 7.892627
+
+# 
