@@ -1,4 +1,4 @@
-# Part I
+# Part I Linear Regression to Predict MPG
 # Load the dplyr package
 library(dplyr)
 
@@ -22,7 +22,7 @@ summary(mpg2_model)
 plot(mpg_model, which = 1)
 
 # GitHub push 
-# Part II
+# Part II Visualizations for the Trip Analysis
 
 # Import and read in the Suspension_Coil.csv file as a table
 Suspension_Coil <- read.csv("Resources/Suspension_Coil.csv")
@@ -37,3 +37,15 @@ lot_summary <- Suspension_Coil %>%
   summarize(mean_PSI = mean(PSI), median_PSI = median(PSI), var_PSI = var(PSI), sd_PSI = sd(PSI))
 
 # GitHub push 
+# Part III T-Tests on Suspecsion Coils 
+
+# Perform t-tests to determine if the PSI across all manufacturing lots is statistically
+# different from the population mean of 1,500 pounds per square inch
+t.test(Suspension_Coil$PSI, mu = 1500)
+
+# Perform t-tests to determine if the PSI for each manufacturing lot is statistically 
+# different from the population mean of 1,500 pounds per square inch
+t.test(Suspension_Coil$PSI[Suspension_Coil$Manufacturing_Lot == "Lot1"], mu = 1500)
+t.test(Suspension_Coil$PSI[Suspension_Coil$Manufacturing_Lot == "Lot2"], mu = 1500)
+t.test(Suspension_Coil$PSI[Suspension_Coil$Manufacturing_Lot == "Lot3"], mu = 1500)
+

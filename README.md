@@ -41,3 +41,13 @@ Based on the total_summary dataframe, the variance of the suspension coils acros
 However, based on the lot_summary dataframe, it appears that Lot3 has a variance of 170.286, which exceeds the design specification of 100 pounds per square inch. This suggests that Lot3 may have some quality control issues or other factors affecting the consistency of its suspension coils.
 
 In summary, the current manufacturing data meets the design specification for the suspension coil's variance in total, but not for Lot3 individually.
+
+## T-Tests on Suspension Coils
+To determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch, a one-sample t-test was performed. The result shows that the p-value is 0.06, which is greater than the significance level of 0.05. Therefore, we cannot reject the null hypothesis that the PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch. This means that the sample mean of PSI across all manufacturing lots is not significantly different from the population mean of 1,500 pounds per square inch.
+
+To determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch, a one-sample t-test was performed for each lot. The results show that Lot 1 has a p-value of 1, which means that we cannot reject the null hypothesis that the PSI for Lot 1 is not statistically different from the population mean. Lot 2 has a p-value of 0.61, which is greater than the significance level of 0.05, so we cannot reject the null hypothesis that the PSI for Lot 2 is not statistically different from the population mean. Lot 3 has a p-value of 0.04, which is less than the significance level of 0.05, so we can reject the null hypothesis that the PSI for Lot 3 is not statistically different from the population mean.
+
+Here are the screenshots of the t-test results for each lot:
+
+![Result of First T-test](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/Manufacturing_Lot_Summary.jpg)
+![Results of 3 T-tests](https://github.com/aahudson/MechaCar_Statistical_Analysis/blob/main/Results/Manufacturing_Lot_Summary.jpg)
